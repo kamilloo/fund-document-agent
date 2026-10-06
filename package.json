@@ -1,0 +1,21 @@
+{
+  "name": "fund-ai-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mastra/core": "^1.74.0",
+    "zod": "3.25"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "mastra": "^1.32.1",
+    "typescript": "latest"
+  }
+}
